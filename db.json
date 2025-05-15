@@ -14,7 +14,7 @@
       "email": "lucia.vargas@buildtruck.com",
       "password": "vargas2025",
       "role": "supervisor",
-      "projectId": "p001",
+      "projectId": "",
       "settings": {
         "language": "es",
         "theme": "light",
@@ -39,7 +39,7 @@
       "settings": {
         "language": "es",
         "theme": "dark",
-        "plan": "basic"
+        "plan": "basic"
       }
     },
     {
@@ -48,11 +48,24 @@
       "email": "pedro.quispe@buildtruck.com",
       "password": "quispe123",
       "role": "supervisor",
-      "projectId": "p002",
+      "projectId": "",
       "settings": {
         "language": "es",
         "theme": "dark",
         "plan": "basic"
+      }
+    },
+    {
+      "id": "107",
+      "name": "Lucia Vargas",
+      "email": "lucia.vargasss@buildtruck.com",
+      "password": "vargas2025",
+      "role": "supervisor",
+      "projectId": "",
+      "settings": {
+        "language": "es",
+        "theme": "light",
+        "plan": "empresarial"
       }
     },
     {
@@ -61,7 +74,7 @@
       "email": "ana.gutierrez@buildtruck.com",
       "password": "gutierrez321",
       "role": "supervisor",
-      "projectId": "p003",
+      "projectId": "",
       "settings": {
         "language": "en",
         "theme": "light",
@@ -69,470 +82,11 @@
       }
     }
   ],
-  "projects": [
-    {
-      "id": "p001",
-      "name": "Torre Miraflores Platinum",
-      "description": "Complejo residencial de lujo con 20 pisos, piscina y áreas comunes en el distrito de Miraflores. Incluye gestión avanzada de materiales y seguimiento de personal.",
-      "image": "https://www.pragmaarquitectos.com.pe/proyectos/oficinas/platino/grande01.jpg",
-      "managerId": "101",
-      "supervisorId": "102",
-      "location": "Miraflores, Lima",
-      "startDate": "2025-07-01",
-      "endDate": "",
-      "state": "En ejecución",
-      "progress": 35,
-      "createdAt": "2025-01-15T10:30:00.000Z",
-      "updatedAt": "2025-05-12T08:45:22.450Z"
-    },
-    {
-      "id": "p002",
-      "name": "Centro Comercial La Victoria",
-      "description": "Construcción de centro comercial de 3 niveles con estacionamiento subterráneo y plaza central. Área total de 25,000 m² con espacio para 120 locales comerciales.",
-      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BugyWXZYHjDnjlwiENl60jaL8Wytn34r3Q&s",
-      "managerId": "101",
-      "supervisorId": "105",
-      "location": "La Victoria, Lima",
-      "startDate": "2025-06-15",
-      "endDate": "",
-      "state": "Planificado",
-      "progress": 0,
-      "createdAt": "2025-03-10T14:20:00.000Z",
-      "updatedAt": "2025-05-08T11:30:45.120Z"
-    },
-    {
-      "id": "p003",
-      "name": "Residencial Los Pinos",
-      "description": "Complejo de 5 edificios residenciales de 8 pisos cada uno con área común, piscina y zona de juegos. Proyecto ecoamigable con certificación LEED.",
-      "image": "https://i.ytimg.com/vi/Mjf40VbOvFE/maxresdefault.jpg",
-      "managerId": "101",
-      "supervisorId": "106",
-      "location": "San Borja, Lima",
-      "startDate": "2025-08-01",
-      "endDate": "",
-      "state": "En estudio",
-      "progress": 0,
-      "createdAt": "2025-04-05T09:15:00.000Z",
-      "updatedAt": "2025-05-01T16:40:12.780Z"
-    }
-  ],
-  "documents": [
-    {
-      "id": "doc_20250510001",
-      "projectId": "p001",
-      "title": "Avance de Cimentación",
-      "description": "Documentación fotográfica del avance de la cimentación del edificio principal. Se muestra el armado de acero y encofrado.",
-      "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSJO4Bu3VOezXpDWtdWcwigTt4sic8uPuXkg&s",
-      "date": "2025-05-10",
-      "updatedAt": "2025-05-10T14:30:22.450Z"
-    },
-    {
-      "id": "doc_20250512002",
-      "projectId": "p001",
-      "title": "Planos Eléctricos Actualizados",
-      "description": "Versión actualizada de los planos eléctricos del edificio con modificaciones en el sistema de iluminación de áreas comunes.",
-      "imagePath": "https://admin.electrotec.pe/elements/images/image-article-9a58bb8eeae541ad1ed1dafd8f06230b.png",
-      "date": "2025-05-12",
-      "updatedAt": "2025-05-12T10:15:38.720Z"
-    },
-    {
-      "id": "doc_20250508003",
-      "projectId": "p001",
-      "title": "Acta de Reunión Semanal",
-      "description": "Acta de la reunión semanal de avance de obra con presencia del cliente, supervisores y proveedores principales.",
-      "imagePath": "https://marketplace.canva.com/EAFKbMGwPpY/1/0/1131w/canva-documento-a4-acta-de-la-reuni%C3%B3n-empresa-corporativo-blanco-y-gris-JtZhDUEJsG4.jpg",
-      "date": "2025-05-08",
-      "updatedAt": "2025-05-08T17:45:10.350Z"
-    },
-    {
-      "id": "doc_20250505004",
-      "projectId": "p002",
-      "title": "Estudio de Suelos",
-      "description": "Resultados del estudio de suelos realizado en el terreno donde se construirá el centro comercial. Incluye recomendaciones técnicas.",
-      "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9fYWe-TybbXfDsdkJqaDfclR9v8ByatI-g&s",
-      "date": "2025-05-05",
-      "updatedAt": "2025-05-05T11:20:45.890Z"
-    },
-    {
-      "id": "doc_20250506005",
-      "projectId": "p002",
-      "title": "Licencia de Construcción",
-      "description": "Documento oficial que autoriza el inicio de las obras de construcción del centro comercial, emitido por la Municipalidad de La Victoria.",
-      "imagePath": "https://img.freepik.com/foto-gratis/trabajadores-examinando-obra_1122-970.jpg?semt=ais_hybrid&w=740",
-      "date": "2025-05-06",
-      "updatedAt": "2025-05-06T09:30:15.670Z"
-    },
-    {
-      "id": "doc_20250428006",
-      "projectId": "p003",
-      "title": "Anteproyecto Arquitectónico",
-      "description": "Presentación del anteproyecto arquitectónico con renders de las fachadas y vistas interiores de los departamentos.",
-      "imagePath": "https://www.hildebrandt.cl/wp-content/uploads/2016/01/Anteproyecto-de-arquitectura-653x463.jpg?32fc0d",
-      "date": "2025-04-28",
-      "updatedAt": "2025-04-28T15:40:22.340Z"
-    }
-  ],
-  "materials": [
-    {
-      "id": "mat001",
-      "projectId": "p001",
-      "name": "Cemento Portland",
-      "type": "MAT",
-      "unit": "kg",
-      "stock": 1200,
-      "minimumStock": 500,
-      "provider": "Cementos Pacasmayo",
-      "price": 0.65,
-      "total": 780,
-      "ruc": "20419387658",
-      "date": "",
-      "status": "Pendiente",
-      "payment": "",
-      "comprobante": "",
-      "comprobanteNumber": "",
-      "description": "Cemento de alta resistencia para estructuras"
-    },
-    {
-      "id": "mat002",
-      "projectId": "p001",
-      "name": "Varillas de Acero",
-      "type": "MAT",
-      "unit": "m",
-      "stock": 850,
-      "minimumStock": 300,
-      "provider": "Aceros Arequipa",
-      "price": 8.75,
-      "total": 7437.5,
-      "ruc": "20417238911",
-      "date": "",
-      "status": "Pendiente",
-      "payment": "",
-      "comprobante": "",
-      "comprobanteNumber": "",
-      "description": "Varillas de acero para estructuras de 3/8\""
-    },
-    {
-      "id": "mat003",
-      "projectId": "p001",
-      "name": "Arena Fina",
-      "type": "MAT",
-      "unit": "m³",
-      "stock": 45,
-      "minimumStock": 20,
-      "provider": "Agregados del Sur",
-      "price": 120,
-      "total": 5400,
-      "ruc": "20513664789",
-      "date": "",
-      "status": "Pendiente",
-      "payment": "",
-      "comprobante": "",
-      "comprobanteNumber": "",
-      "description": "Arena fina para acabados y mezclas"
-    },
-    {
-      "id": "mat004",
-      "projectId": "p002",
-      "name": "Concreto Premezclado",
-      "type": "MAT",
-      "unit": "m³",
-      "stock": 0,
-      "minimumStock": 50,
-      "provider": "Concretos Lima",
-      "price": 320,
-      "total": 0,
-      "ruc": "20523456789",
-      "date": "",
-      "status": "Pendiente",
-      "payment": "",
-      "comprobante": "",
-      "comprobanteNumber": "",
-      "description": "Concreto premezclado f'c=210 kg/cm²"
-    },
-    {
-      "id": "mat005",
-      "projectId": "p002",
-      "name": "Ladrillos King Kong",
-      "type": "MAT",
-      "unit": "millar",
-      "stock": 12,
-      "minimumStock": 5,
-      "provider": "Ladrillera San Martín",
-      "price": 750,
-      "total": 9000,
-      "ruc": "20514567890",
-      "date": "",
-      "status": "Pendiente",
-      "payment": "",
-      "comprobante": "",
-      "comprobanteNumber": "",
-      "description": "Ladrillos King Kong 18 huecos"
-    }
-  ],
-  "material-entries": [
-    {
-      "id": "e20250515001",
-      "materialId": "mat001",
-      "projectId": "p001",
-      "date": "2025-05-10",
-      "quantity": 1500,
-      "provider": "Cementos Pacasmayo",
-      "comprobante": "Factura",
-      "comprobanteNumber": "F001-87654",
-      "ruc": "20419387658",
-      "payment": "Crédito",
-      "unitCost": 0.65,
-      "totalCost": 975,
-      "observations": "Entrega puntual en obra",
-      "status": "Cancelado",
-      "createdBy": "102"
-    },
-    {
-      "id": "e20250512002",
-      "materialId": "mat002",
-      "projectId": "p001",
-      "date": "2025-05-12",
-      "quantity": 1000,
-      "provider": "Aceros Arequipa",
-      "comprobante": "Factura",
-      "comprobanteNumber": "F002-12354",
-      "ruc": "20417238911",
-      "payment": "Contado",
-      "unitCost": 8.75,
-      "totalCost": 8750,
-      "observations": "Entrega parcial, falta 500 metros",
-      "status": "Cancelado",
-      "createdBy": "102"
-    },
-    {
-      "id": "e20250508003",
-      "materialId": "mat003",
-      "projectId": "p001",
-      "date": "2025-05-08",
-      "quantity": 60,
-      "provider": "Agregados del Sur",
-      "comprobante": "Guía",
-      "comprobanteNumber": "G001-56789",
-      "ruc": "20513664789",
-      "payment": "Contado",
-      "unitCost": 120,
-      "totalCost": 7200,
-      "observations": "Material de buena calidad",
-      "status": "Cancelado",
-      "createdBy": "102"
-    },
-    {
-      "id": "e20250505004",
-      "materialId": "mat005",
-      "projectId": "p002",
-      "date": "2025-05-05",
-      "quantity": 15,
-      "provider": "Ladrillera San Martín",
-      "comprobante": "Factura",
-      "comprobanteNumber": "F001-23456",
-      "ruc": "20514567890",
-      "payment": "Contado",
-      "unitCost": 750,
-      "totalCost": 11250,
-      "observations": "Primera entrega para almacenamiento previo",
-      "status": "Cancelado",
-      "createdBy": "105"
-    }
-  ],
-  "material-usages": [
-    {
-      "id": "u20250513001",
-      "projectId": "p001",
-      "materialId": "mat001",
-      "date": "2025-05-13",
-      "quantity": 300,
-      "area": "Fundaciones piso 5",
-      "worker": "Juan Mamani",
-      "usageType": "Normal",
-      "status": "Pendiente",
-      "observations": "Usado para columnas del quinto piso"
-    },
-    {
-      "id": "u20250514002",
-      "projectId": "p001",
-      "materialId": "mat002",
-      "date": "2025-05-14",
-      "quantity": 150,
-      "area": "Columnas piso 6",
-      "worker": "Roberto Castillo",
-      "usageType": "Normal",
-      "status": "Pendiente",
-      "observations": "Instalación de varillas para refuerzo de columnas"
-    },
-    {
-      "id": "u20250512003",
-      "projectId": "p001",
-      "materialId": "mat003",
-      "date": "2025-05-12",
-      "quantity": 15,
-      "area": "Acabados piso 4",
-      "worker": "Miguel Torres",
-      "usageType": "Normal",
-      "status": "Pendiente",
-      "observations": "Utilizada para mezcla de acabados en departamentos"
-    },
-    {
-      "id": "u20250506004",
-      "projectId": "p002",
-      "materialId": "mat005",
-      "date": "2025-05-06",
-      "quantity": 3,
-      "area": "Muros de prueba",
-      "worker": "Carlos López",
-      "usageType": "Normal",
-      "status": "Pendiente",
-      "observations": "Construcción de muros de prueba para verificar calidad de materiales"
-    }
-  ],
-  "machinery": [
-    {
-      "id": "maq001",
-      "projectId": "p001",
-      "name": "Grúa Torre",
-      "licensePlate": "N/A",
-      "registerDate": "2025-04-15",
-      "status": "active",
-      "provider": "Maquinarias S.A.C.",
-      "description": "Grúa torre de 50 metros de altura para transporte vertical de materiales"
-    },
-    {
-      "id": "maq002",
-      "projectId": "p001",
-      "name": "Mezcladora de Concreto",
-      "licensePlate": "N/A",
-      "status": "active",
-      "registerDate": "2025-04-20",
-      "provider": "Construequipos Perú",
-      "description": "Mezcladora de 2 m³ de capacidad para mezcla de concreto"
-    },
-    {
-      "id": "maq003",
-      "projectId": "p001",
-      "name": "Retroexcavadora",
-      "licensePlate": "EGT-456",
-      "status": "maintenance",
-      "registerDate": "2025-03-10",
-      "provider": "Maquinarias del Sur",
-      "description": "Actualmente en mantenimiento por falla en sistema hidráulico"
-    },
-    {
-      "id": "maq004",
-      "projectId": "p002",
-      "name": "Martillo Neumático",
-      "licensePlate": "N/A",
-      "status": "active",
-      "registerDate": "2025-05-01",
-      "provider": "Construequipos Perú",
-      "description": "Martillo neumático para demolición de estructuras existentes"
-    },
-    {
-      "id": "maq005",
-      "projectId": "p002",
-      "name": "Tractor Oruga",
-      "licensePlate": "FGT-789",
-      "status": "active",
-      "registerDate": "2025-04-25",
-      "provider": "Maquinarias del Norte",
-      "description": "Tractor oruga para movimiento de tierras y nivelación del terreno"
-    }
-  ],
-  "personnel": [
-    {
-      "id": "per001",
-      "projectId": "p001",
-      "name": "Jorge Huamán",
-      "dni": 45678901,
-      "rol": "Maestro de Obra",
-      "status": "Activo",
-      "startDate": "15-04-25",
-      "phoneNumber": 987654321,
-      "email": "jorge.huaman@buildtruck.com"
-    },
-    {
-      "id": "per002",
-      "projectId": "p001",
-      "name": "Luis Condori",
-      "dni": 23456789,
-      "rol": "Operador de Maquinaria",
-      "status": "Activo",
-      "startDate": "20-04-25",
-      "phoneNumber": 923456789,
-      "email": "luis.condori@buildtruck.com"
-    },
-    {
-      "id": "per003",
-      "projectId": "p001",
-      "name": "Carmen Soto",
-      "dni": 34567890,
-      "rol": "Ingeniera Civil",
-      "status": "Activo",
-      "startDate": "10-04-25",
-      "phoneNumber": 945678912,
-      "email": "carmen.soto@buildtruck.com"
-    },
-    {
-      "id": "per004",
-      "projectId": "p001",
-      "name": "Julio Rojas",
-      "dni": 56789012,
-      "rol": "Albañil",
-      "status": "Activo",
-      "startDate": "22-04-25",
-      "phoneNumber": 956789123,
-      "email": "julio.rojas@buildtruck.com"
-    },
-    {
-      "id": "per005",
-      "projectId": "p002",
-      "name": "Mariana Flores",
-      "dni": 67890123,
-      "rol": "Ingeniera Civil",
-      "status": "Activo",
-      "startDate": "05-05-25",
-      "phoneNumber": 912345678,
-      "email": "mariana.flores@buildtruck.com"
-    },
-    {
-      "id": "per006",
-      "projectId": "p002",
-      "name": "Eduardo Chávez",
-      "dni": 78901234,
-      "rol": "Topógrafo",
-      "status": "Activo",
-      "startDate": "01-05-25",
-      "phoneNumber": 934567891,
-      "email": "eduardo.chavez@buildtruck.com"
-    }
-  ],
-  "incidents": [
-    {
-      "id": "inc001",
-      "projectId": "p001",
-      "title": "Rotura de tubería de agua",
-      "description": "Durante la excavación se produjo la rotura de una tubería de agua no indicada en los planos municipales",
-      "date": "2025-05-11",
-      "type": "Accidente",
-      "severity": "Media",
-      "status": "Resuelto",
-      "measuresTaken": "Se contactó a Sedapal para el arreglo de emergencia y se detuvo el trabajo en la zona afectada",
-      "createdBy": "102"
-    },
-    {
-      "id": "inc002",
-      "projectId": "p001",
-      "title": "Retraso en entrega de materiales",
-      "description": "El proveedor de acero notificó un retraso de 5 días en la entrega programada de varillas",
-      "date": "2025-05-09",
-      "type": "Logística",
-      "severity": "Baja",
-      "status": "En proceso",
-      "measuresTaken": "Se reprogramó el cronograma de trabajo para priorizar otras actividades durante la espera",
-      "createdBy": "102"
-    }
-  ]
+  "projects": [],
+  "documents": [],
+  "materials": [],
+  "material-usages": [],
+  "machinery": [],
+  "personnel": [],
+  "incidents": []
 }
