@@ -1,41 +1,33 @@
 {
   "users": [
     {
-      "id": "101",
-      "name": "Carlos Mendoza",
-      "email": "carlos.mendoza@buildtruck.com",
-      "password": "securepass123",
+      "id": "1",
+      "name": "So Gerente",
+      "email": "gerente@buildtruck.com",
+      "password": "123456",
       "role": "manager",
-      "projects": ["p001", "p002", "p003"]
+      "projects": [
+        "p001",
+        "p002",
+        "p1746994145994",
+        "p1746995990812",
+        "p1746996479824",
+        "p1746997027350",
+        "p1746997457060",
+        "p1747016115494",
+        "p1747029583731",
+        "p1747029583731",
+        "p1747105829155"
+      ],
+      "photo": "data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD0AAAA8CAYAAADVPrJMAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAJkSURBVHgB7Zq/ctNAEMa/lYBhhsaPYApoSQ8zFh2FMzEvQOw3gIKojF0xCQV0lIrzAjjggg6lyAwdoYUCPYKYoWIiLSebFI5FTn9OGiXaX2P7tGPfd7e3+kZeQGgHhJrx3L5jwXoAjjsgK4wRfxvtzX3USG2ivZ3+wCJ6A3B3/SoFsGi8/erDFDVgowambn9MhHfqbec/IR0wD7Ye3aejk+8+KqZy0Ylg9bKbJValnbP18N6vo5MfX1Ahlaa35w66Fs5+pl/lQP18d30YYfzn993RWz9EReQSvShCjF7WeCLaYPBgdZSDGNHj0d6nwHOfqEW5+VWNraQ9MWYMnCIjMeE4TzHMJHqxY3z2XkVvoCSsBA3350/PPx+4mx6BhygNqcW01WLOAl2kpQtYpmj02YTgBbRazCi1mheBF/P0njsdXeQNXYCNaJeNTWxZrA7V7kYUHdts99R3OzAGd+nWnaRovrgsSrvT6mw5MIwSOrTY8thIWq9CoKEuRrvTqWaCMUZToAtzIZRP7zS29+cTNIR/PiAX2vS+jojotlDoTKcx3eln8tdlMFVLjIleq6LVYES0nOm2IIWsFE1yaRqMiW6SS9MhZ7otSCErgziy6hBHVhQR3RbEkZVBHFnDEdFtoVGOLO+/j0VplCOzlncAHxUjZ7otSCErhQFHlhQy1IA4srYgottCoTNdx/OwKskgmsKLzW01PQ8rSNKJeDlZuosOcIXgDDZWL/q2Pcmyes2AA0akvXVqRY8mszDp5Wy8cObT855TXWiuhtjDl5s9JpMdfmYgJv/Z64+1uDlBEARBqJG/5HnD0C79HL4AAAAASUVORK5CYII="
     },
     {
-      "id": "102",
-      "name": "Lucia Vargas",
-      "email": "lucia.vargas@buildtruck.com",
-      "password": "vargas2025",
+      "id": "2",
+      "name": "Sofis Supervisora",
+      "email": "supervisora@buildtruck.com",
+      "password": "123456",
       "role": "supervisor",
-      "projectId": "",
-      "settings": {
-        "language": "es",
-        "theme": "light",
-        "plan": "empresarial"
-      }
-    },
-    {
-      "id": "103",
-      "name": "Javier Morales",
-      "email": "javier.morales@buildtruck.com",
-      "password": "morales789",
-      "role": "manager",
-      "projects": []
-    },
-    {
-      "id": "104",
-      "name": "Rosa Mendez",
-      "email": "rosa.mendez@buildtruck.com",
-      "password": "mendez456",
-      "role": "supervisor",
-      "projectId": "",
+      "projectId": "p001",
       "settings": {
         "language": "es",
         "theme": "dark",
@@ -43,50 +35,490 @@
       }
     },
     {
-      "id": "105",
-      "name": "Pedro Quispe",
-      "email": "pedro.quispe@buildtruck.com",
-      "password": "quispe123",
+      "id": "3",
+      "name": "Juan Pérez",
+      "email": "juan@buildtruck.com",
+      "password": "123456",
+      "role": "supervisor",
+      "projectId": "p1747105829155",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
+        "plan": "empresarial"
+      }
+    },
+    {
+      "id": "4",
+      "name": "María Torres",
+      "email": "maria@buildtruck.com",
+      "password": "123456",
+      "role": "supervisor",
+      "projectId": "p1746997027350",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
+        "plan": "empresarial"
+      }
+    },
+    {
+      "id": "5",
+      "name": "Maylhy Guti",
+      "email": "maylhy@buildtruck.com",
+      "password": "30092005",
+      "role": "supervisor",
+      "projectId": "p1746997457060",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
+        "plan": "empresarial"
+      }
+    },
+    {
+      "id": "6",
+      "name": "Raul",
+      "email": "raul@buildtruck.com",
+      "password": "8745",
+      "role": "supervisor",
+      "projectId": "p1747016115494",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
+        "plan": "empresarial"
+      }
+    },
+    {
+      "id": "7",
+      "name": "xd",
+      "email": "xd@buildtruck.com",
+      "password": "7777",
+      "role": "supervisor",
+      "projectId": "p1747029583731",
+      "photo": "data:image/png;base64,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"
+    },
+    {
+      "id": "8",
+      "name": "xd",
+      "email": "fd@buildtruck.com",
+      "password": "12345",
+      "role": "supervisor",
+      "projectId": "p1747256773172",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
+        "plan": "empresarial"
+      }
+    },
+    {
+      "id": "9",
+      "name": "Juan Pedro",
+      "email": "juanP@buildtruck.com",
+      "password": "123456",
       "role": "supervisor",
       "projectId": "",
       "settings": {
         "language": "es",
         "theme": "dark",
-        "plan": "basic"
-      }
-    },
-    {
-      "id": "107",
-      "name": "Lucia Vargas",
-      "email": "lucia.vargasss@buildtruck.com",
-      "password": "vargas2025",
-      "role": "supervisor",
-      "projectId": "",
-      "settings": {
-        "language": "es",
-        "theme": "light",
         "plan": "empresarial"
       }
     },
     {
-      "id": "106",
-      "name": "Ana Gutierrez",
-      "email": "ana.gutierrez@buildtruck.com",
-      "password": "gutierrez321",
+      "id": "10",
+      "name": "Pedro",
+      "email": "pedro@buildtruck.com",
+      "password": "123456",
       "role": "supervisor",
       "projectId": "",
       "settings": {
-        "language": "en",
-        "theme": "light",
+        "language": "es",
+        "theme": "dark",
+        "plan": "empresarial"
+      }
+    },
+    {
+      "id": "11",
+      "name": "Pedro",
+      "email": "pedroPP@buildtruck.com",
+      "password": "123456",
+      "role": "supervisor",
+      "projectId": "",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
         "plan": "empresarial"
       }
     }
   ],
-  "projects": [],
-  "documents": [],
-  "materials": [],
-  "material-usages": [],
-  "machinery": [],
-  "personnel": [],
+  "projects": [
+    {
+      "name": "Residencial Las Palmeritas",
+      "state": "Finalizado",
+      "location": "Lurín, Lima",
+      "description": "Proyecto habitacional de 6 torres de departamentos en Lurín. Incluye supervisión de estructuras, acabados y control de materiales en tiempo real.",
+      "startDate": "2023-05-15",
+      "supervisorId": "2",
+      "updatedAt": "2025-05-13T03:11:40.181Z",
+      "id": "p001"
+    },
+    {
+      "id": "p002",
+      "name": "Edificio Corporativo EcoTower",
+      "description": "Edificio de oficinas de 10 pisos con sistema de eficiencia energética. Seguimiento detallado de personal técnico, cronograma y gestión de insumos.",
+      "image": "/images/proyecto2.jpg",
+      "managerId": "1",
+      "supervisorId": "3",
+      "location": "San Isidro, Lima",
+      "startDate": "2023-08-01",
+      "endDate": "null",
+      "state": "En estudio",
+      "progress": 0,
+      "createdAt": "2023-07-10T00:00:00.000Z",
+      "updatedAt": "2023-07-10T00:00:00.000Z"
+    },
+    {
+      "id": "p1746997027350",
+      "name": "asdassda",
+      "description": "assdaadsads",
+      "image": "/images/proyecto-default.jpg",
+      "managerId": "1",
+      "location": "asdasdsd",
+      "startDate": "2025-05-11",
+      "endDate": "",
+      "supervisorId": "4",
+      "state": "Planificado",
+      "progress": 0,
+      "createdAt": "2025-05-11T20:57:07.350Z",
+      "updatedAt": "2025-05-11T20:57:07.350Z"
+    },
+    {
+      "id": "p1746997457060",
+      "name": "Edificacion Zona A",
+      "description": "Edificio de 10 pisos en el valle del colca",
+      "image": "/images/proyecto-default.jpg",
+      "managerId": "1",
+      "location": "Arequipa",
+      "startDate": "2025-11-21",
+      "endDate": "",
+      "supervisorId": "5",
+      "state": "En ejecución",
+      "progress": 0,
+      "createdAt": "2025-05-11T21:04:17.060Z",
+      "updatedAt": "2025-05-11T21:04:17.060Z"
+    },
+    {
+      "id": "p1747016115494",
+      "name": "sdawddwa",
+      "description": "awdadw",
+      "image": "/images/proyecto-default.jpg",
+      "managerId": 1,
+      "location": "awdawd",
+      "startDate": "2025-05-12",
+      "endDate": "2025-05-12T02:15:15.500Z",
+      "supervisorId": "6",
+      "state": "Finalizado",
+      "progress": 0,
+      "createdAt": "2025-05-12T02:15:15.494Z",
+      "updatedAt": "2025-05-12T02:15:15.494Z"
+    },
+    {
+      "id": "p1747029583731",
+      "name": "xd",
+      "description": "xd",
+      "image": "/images/proyecto-default.jpg",
+      "managerId": 1,
+      "location": "xd",
+      "startDate": "2025-05-12",
+      "endDate": "2025-05-12T05:59:43.740Z",
+      "supervisorId": "7",
+      "state": "Finalizado",
+      "progress": 0,
+      "createdAt": "2025-05-12T05:59:43.731Z",
+      "updatedAt": "2025-05-12T05:59:43.731Z"
+    },
+    {
+      "name": "Centro de ayacuchito",
+      "state": "Planificado",
+      "location": "ayacucho",
+      "description": "Plaza de armas",
+      "startDate": "2025-05-13",
+      "supervisorId": "3",
+      "updatedAt": "2025-05-13T03:11:07.533Z",
+      "id": "p1747105829155"
+    },
+    {
+      "id": "p1747256773172",
+      "name": "aaaaaaaaaaa",
+      "description": "aaaaaaaaaaa",
+      "image": "data:image/png;base64,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",
+      "managerId": 1,
+      "location": "aaaaaaaaaaaa",
+      "startDate": "2025-05-14",
+      "endDate": "",
+      "supervisorId": "8",
+      "state": "En estudio",
+      "progress": 0,
+      "createdAt": "2025-05-14T21:06:13.172Z",
+      "updatedAt": "2025-05-14T21:06:13.172Z"
+    }
+  ],
+  "documents": [
+    {
+      "id": "doc_1747162121330_alo9",
+      "projectId": "p001",
+      "title": "aaaaaaa",
+      "description": "aaaaaaaaaaaaa",
+      "imagePath": "https://via.placeholder.com/800x600.png?text=handshake.png",
+      "date": "2025-05-13",
+      "updatedAt": "2025-05-13T18:48:41.330Z"
+    },
+    {
+      "id": "doc_1747259122749_1q1u",
+      "projectId": "p1747029583731",
+      "title": "aaa",
+      "description": "aaaaaa",
+      "imagePath": "data:image/png;base64,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",
+      "date": "2025-05-14",
+      "updatedAt": "2025-05-14T21:45:22.749Z"
+    }
+  ],
+  "materials": [
+    {
+      "id": "393f",
+      "projectId": null,
+      "name": "plastico",
+      "type": "MAT",
+      "unit": "m",
+      "stock": 16,
+      "minimumStock": 29,
+      "provider": "juas",
+      "price": 9,
+      "total": 144,
+      "ruc": "",
+      "date": "",
+      "status": "Pendiente",
+      "payment": "",
+      "comprobante": "",
+      "comprobanteNumber": "",
+      "description": ""
+    },
+    {
+      "id": "8456",
+      "projectId": "p001",
+      "name": "ladrillo",
+      "type": "MAT",
+      "unit": "u",
+      "stock": 15,
+      "minimumStock": 80,
+      "provider": "jose",
+      "price": 0,
+      "total": 0,
+      "ruc": "",
+      "date": "",
+      "status": "Pendiente",
+      "payment": "",
+      "comprobante": "",
+      "comprobanteNumber": "",
+      "description": ""
+    },
+    {
+      "id": "aeb9",
+      "projectId": "p001",
+      "name": "Tubo",
+      "type": "MAT",
+      "unit": "cm",
+      "stock": 40,
+      "minimumStock": 50,
+      "provider": "lari",
+      "price": 4,
+      "total": 160,
+      "ruc": "",
+      "date": "",
+      "status": "Pendiente",
+      "payment": "",
+      "comprobante": "",
+      "comprobanteNumber": "",
+      "description": ""
+    },
+    {
+      "id": "4f77",
+      "projectId": "p001",
+      "name": " arena",
+      "type": "MAT",
+      "unit": "cubos",
+      "stock": 14,
+      "minimumStock": 30,
+      "provider": "lazarillo",
+      "price": 0,
+      "total": 0,
+      "ruc": "",
+      "date": "",
+      "status": "Pendiente",
+      "payment": "",
+      "comprobante": "",
+      "comprobanteNumber": "",
+      "description": ""
+    },
+    {
+      "id": "4bad",
+      "projectId": "p1747029583731",
+      "name": "aaaaaaa",
+      "type": "MAT",
+      "unit": "aaaaaaaaaaaaaa",
+      "stock": 0,
+      "minimumStock": 5,
+      "provider": "aaaaaaaaaaaaa",
+      "price": 0,
+      "total": 0,
+      "ruc": "",
+      "date": "",
+      "status": "Pendiente",
+      "payment": "",
+      "comprobante": "",
+      "comprobanteNumber": "",
+      "description": ""
+    }
+  ],
+  "material-entries": [
+    {
+      "id": "e1747187598517",
+      "materialId": "393f",
+      "projectId": "p001",
+      "date": "2025-03-12",
+      "quantity": 39,
+      "provider": "juancito",
+      "comprobante": "Guía",
+      "comprobanteNumber": "12349",
+      "ruc": "12345",
+      "payment": "Contado",
+      "unitCost": 9,
+      "totalCost": 351,
+      "observations": "se compo plastico",
+      "status": "Cancelado",
+      "createdBy": "2"
+    },
+    {
+      "id": "e1747189192249",
+      "materialId": "8456",
+      "projectId": "p001",
+      "date": "2025-12-11",
+      "quantity": 30,
+      "provider": "martinez",
+      "comprobante": "Boleta",
+      "comprobanteNumber": "1234",
+      "ruc": "445",
+      "payment": "Contado",
+      "unitCost": 2,
+      "totalCost": 60,
+      "observations": "se agrego el ladrillo",
+      "status": "Cancelado",
+      "createdBy": "2"
+    },
+    {
+      "id": "e1747190269534",
+      "materialId": "aeb9",
+      "projectId": "p001",
+      "date": "2025-12-12",
+      "quantity": 74,
+      "provider": "lar",
+      "comprobante": "Boleta",
+      "comprobanteNumber": "f234",
+      "ruc": "1367",
+      "payment": "Contado",
+      "unitCost": 4,
+      "totalCost": 296,
+      "observations": "cvsdccsd",
+      "status": "Cancelado",
+      "createdBy": "2"
+    },
+    {
+      "id": "e1747190570445",
+      "materialId": "4f77",
+      "projectId": "p001",
+      "date": "2023-12-12",
+      "quantity": 18,
+      "provider": "martinez",
+      "comprobante": "Boleta",
+      "comprobanteNumber": "2344",
+      "ruc": "357890",
+      "payment": "Contado",
+      "unitCost": 74,
+      "totalCost": 1332,
+      "observations": "xdddd",
+      "status": "Cancelado",
+      "createdBy": "2"
+    }
+  ],
+  "material-usages": [
+    {
+      "id": "u1747189776583",
+      "projectId": "p001",
+      "materialId": "393f",
+      "date": "4212-03-12",
+      "quantity": 24,
+      "area": "en la arena",
+      "worker": "",
+      "usageType": "Urgente",
+      "status": "Pendiente",
+      "observations": "se coloco bastante plastico para no malograr la rena"
+    },
+    {
+      "id": "u1747190104694",
+      "projectId": "p001",
+      "materialId": "8456",
+      "date": "2025-12-12",
+      "quantity": 15,
+      "area": "en una pared ",
+      "worker": "",
+      "usageType": "Normal",
+      "status": "Pendiente",
+      "observations": "geje se uso en la pared "
+    },
+    {
+      "id": "u1747190349285",
+      "projectId": "p001",
+      "materialId": "aeb9",
+      "date": "2025-03-14",
+      "quantity": 30,
+      "area": "en la luz",
+      "worker": "",
+      "usageType": "Desperdicio",
+      "status": "Pendiente",
+      "observations": "jefecito se desperdicio"
+    }
+  ],
+  "personnel": [
+    {
+      "id": "p354768798063",
+      "projectId": "p001",
+      "name": "David Ramírez",
+      "dni": 72473890,
+      "rol": "Obrero",
+      "status": "Activo",
+      "startDate": "12-01-24",
+      "phoneNumber": 943281743,
+      "email": "david.ramirez@constructora.com"
+    }
+  ],
+  "machinery": [
+    {
+      "projectId": "p001",
+      "name": "Excavadora",
+      "licensePlate": "ABC-123",
+      "registerDate": "12-12-25",
+      "status": "active",
+      "provider": "SAC",
+      "description": "xd.",
+      "id": "d184"
+    },
+    {
+      "id": "5f7f",
+      "projectId": "p1747029583731",
+      "name": "Grua",
+      "licensePlate": "FBD-D44-44D",
+      "status": "maintenance",
+      "registerDate": "05/24/20252",
+      "provider": "CATT",
+      "description": "Grua en mantenimiento"
+    }
+  ],
   "incidents": []
 }
