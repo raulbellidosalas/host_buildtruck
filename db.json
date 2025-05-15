@@ -34,8 +34,13 @@
       "name": "Rosa Mendez",
       "email": "rosa.mendez@buildtruck.com",
       "password": "mendez456",
-      "role": "manager",
-      "projects": []
+      "role": "supervisor",
+      "projectId": "",
+      "settings": {
+        "language": "es",
+        "theme": "dark",
+        "plan": "basic"
+      }
     },
     {
       "id": "105",
