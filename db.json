@@ -6,7 +6,7 @@
       "email": "carlos.mendoza@buildtruck.com",
       "password": "securepass123",
       "role": "manager",
-      "projects": ["proj001", "proj002", "proj003"]
+      "projects": ["p001", "p002", "p003"]
     },
     {
       "id": "102",
@@ -14,7 +14,7 @@
       "email": "lucia.vargas@buildtruck.com",
       "password": "vargas2025",
       "role": "supervisor",
-      "projectId": "proj001",
+      "projectId": "p001",
       "settings": {
         "language": "es",
         "theme": "light",
@@ -26,14 +26,16 @@
       "name": "Javier Morales",
       "email": "javier.morales@buildtruck.com",
       "password": "morales789",
-      "role": "manager"
+      "role": "manager",
+      "projects": []
     },
     {
       "id": "104",
       "name": "Rosa Mendez",
       "email": "rosa.mendez@buildtruck.com",
       "password": "mendez456",
-      "role": "manager"
+      "role": "manager",
+      "projects": []
     },
     {
       "id": "105",
@@ -41,7 +43,7 @@
       "email": "pedro.quispe@buildtruck.com",
       "password": "quispe123",
       "role": "supervisor",
-      "projectId": "proj002",
+      "projectId": "p002",
       "settings": {
         "language": "es",
         "theme": "dark",
@@ -54,7 +56,7 @@
       "email": "ana.gutierrez@buildtruck.com",
       "password": "gutierrez321",
       "role": "supervisor",
-      "projectId": "proj003",
+      "projectId": "p003",
       "settings": {
         "language": "en",
         "theme": "light",
@@ -64,7 +66,7 @@
   ],
   "projects": [
     {
-      "id": "proj001",
+      "id": "p001",
       "name": "Torre Miraflores Platinum",
       "description": "Complejo residencial de lujo con 20 pisos, piscina y áreas comunes en el distrito de Miraflores. Incluye gestión avanzada de materiales y seguimiento de personal.",
       "image": "https://www.pragmaarquitectos.com.pe/proyectos/oficinas/platino/grande01.jpg",
@@ -79,7 +81,7 @@
       "updatedAt": "2025-05-12T08:45:22.450Z"
     },
     {
-      "id": "proj002",
+      "id": "p002",
       "name": "Centro Comercial La Victoria",
       "description": "Construcción de centro comercial de 3 niveles con estacionamiento subterráneo y plaza central. Área total de 25,000 m² con espacio para 120 locales comerciales.",
       "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR7BugyWXZYHjDnjlwiENl60jaL8Wytn34r3Q&s",
@@ -94,7 +96,7 @@
       "updatedAt": "2025-05-08T11:30:45.120Z"
     },
     {
-      "id": "proj003",
+      "id": "p003",
       "name": "Residencial Los Pinos",
       "description": "Complejo de 5 edificios residenciales de 8 pisos cada uno con área común, piscina y zona de juegos. Proyecto ecoamigable con certificación LEED.",
       "image": "https://i.ytimg.com/vi/Mjf40VbOvFE/maxresdefault.jpg",
@@ -112,16 +114,16 @@
   "documents": [
     {
       "id": "doc_20250510001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "title": "Avance de Cimentación",
       "description": "Documentación fotográfica del avance de la cimentación del edificio principal. Se muestra el armado de acero y encofrado.",
-      "imagePath": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.cingenieria.pe%2Farticulos%2Fla-importancia-del-trabajo-en-equipo%2F&psig=AOvVaw03Cx7AlRHLD5Ny7ipl2IuC&ust=1747397034972000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCMDe8q-3pY0DFQAAAAAdAAAAABAE",
+      "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSSJO4Bu3VOezXpDWtdWcwigTt4sic8uPuXkg&s",
       "date": "2025-05-10",
       "updatedAt": "2025-05-10T14:30:22.450Z"
     },
     {
       "id": "doc_20250512002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "title": "Planos Eléctricos Actualizados",
       "description": "Versión actualizada de los planos eléctricos del edificio con modificaciones en el sistema de iluminación de áreas comunes.",
       "imagePath": "https://admin.electrotec.pe/elements/images/image-article-9a58bb8eeae541ad1ed1dafd8f06230b.png",
@@ -130,7 +132,7 @@
     },
     {
       "id": "doc_20250508003",
-      "projectId": "proj001",
+      "projectId": "p001",
       "title": "Acta de Reunión Semanal",
       "description": "Acta de la reunión semanal de avance de obra con presencia del cliente, supervisores y proveedores principales.",
       "imagePath": "https://marketplace.canva.com/EAFKbMGwPpY/1/0/1131w/canva-documento-a4-acta-de-la-reuni%C3%B3n-empresa-corporativo-blanco-y-gris-JtZhDUEJsG4.jpg",
@@ -139,7 +141,7 @@
     },
     {
       "id": "doc_20250505004",
-      "projectId": "proj002",
+      "projectId": "p002",
       "title": "Estudio de Suelos",
       "description": "Resultados del estudio de suelos realizado en el terreno donde se construirá el centro comercial. Incluye recomendaciones técnicas.",
       "imagePath": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRZ9fYWe-TybbXfDsdkJqaDfclR9v8ByatI-g&s",
@@ -148,16 +150,16 @@
     },
     {
       "id": "doc_20250506005",
-      "projectId": "proj002",
+      "projectId": "p002",
       "title": "Licencia de Construcción",
       "description": "Documento oficial que autoriza el inicio de las obras de construcción del centro comercial, emitido por la Municipalidad de La Victoria.",
-      "imagePath": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.youtube.com%2Fwatch%3Fv%3DCuSAX5MRl00&psig=AOvVaw1bjs1qf6ZTTqOJav3NMDvv&ust=1747398187380000&source=images&cd=vfe&opi=89978449&ved=0CBQQjRxqFwoTCJj2kNW7pY0DFQAAAAAdAAAAABAE",
+      "imagePath": "https://img.freepik.com/foto-gratis/trabajadores-examinando-obra_1122-970.jpg?semt=ais_hybrid&w=740",
       "date": "2025-05-06",
       "updatedAt": "2025-05-06T09:30:15.670Z"
     },
     {
       "id": "doc_20250428006",
-      "projectId": "proj003",
+      "projectId": "p003",
       "title": "Anteproyecto Arquitectónico",
       "description": "Presentación del anteproyecto arquitectónico con renders de las fachadas y vistas interiores de los departamentos.",
       "imagePath": "https://www.hildebrandt.cl/wp-content/uploads/2016/01/Anteproyecto-de-arquitectura-653x463.jpg?32fc0d",
@@ -168,7 +170,7 @@
   "materials": [
     {
       "id": "mat001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Cemento Portland",
       "type": "MAT",
       "unit": "kg",
@@ -187,7 +189,7 @@
     },
     {
       "id": "mat002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Varillas de Acero",
       "type": "MAT",
       "unit": "m",
@@ -206,7 +208,7 @@
     },
     {
       "id": "mat003",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Arena Fina",
       "type": "MAT",
       "unit": "m³",
@@ -225,7 +227,7 @@
     },
     {
       "id": "mat004",
-      "projectId": "proj002",
+      "projectId": "p002",
       "name": "Concreto Premezclado",
       "type": "MAT",
       "unit": "m³",
@@ -244,7 +246,7 @@
     },
     {
       "id": "mat005",
-      "projectId": "proj002",
+      "projectId": "p002",
       "name": "Ladrillos King Kong",
       "type": "MAT",
       "unit": "millar",
@@ -266,7 +268,7 @@
     {
       "id": "e20250515001",
       "materialId": "mat001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "date": "2025-05-10",
       "quantity": 1500,
       "provider": "Cementos Pacasmayo",
@@ -283,7 +285,7 @@
     {
       "id": "e20250512002",
       "materialId": "mat002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "date": "2025-05-12",
       "quantity": 1000,
       "provider": "Aceros Arequipa",
@@ -300,7 +302,7 @@
     {
       "id": "e20250508003",
       "materialId": "mat003",
-      "projectId": "proj001",
+      "projectId": "p001",
       "date": "2025-05-08",
       "quantity": 60,
       "provider": "Agregados del Sur",
@@ -317,7 +319,7 @@
     {
       "id": "e20250505004",
       "materialId": "mat005",
-      "projectId": "proj002",
+      "projectId": "p002",
       "date": "2025-05-05",
       "quantity": 15,
       "provider": "Ladrillera San Martín",
@@ -335,7 +337,7 @@
   "material-usages": [
     {
       "id": "u20250513001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "materialId": "mat001",
       "date": "2025-05-13",
       "quantity": 300,
@@ -347,7 +349,7 @@
     },
     {
       "id": "u20250514002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "materialId": "mat002",
       "date": "2025-05-14",
       "quantity": 150,
@@ -359,7 +361,7 @@
     },
     {
       "id": "u20250512003",
-      "projectId": "proj001",
+      "projectId": "p001",
       "materialId": "mat003",
       "date": "2025-05-12",
       "quantity": 15,
@@ -371,7 +373,7 @@
     },
     {
       "id": "u20250506004",
-      "projectId": "proj002",
+      "projectId": "p002",
       "materialId": "mat005",
       "date": "2025-05-06",
       "quantity": 3,
@@ -385,7 +387,7 @@
   "machinery": [
     {
       "id": "maq001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Grúa Torre",
       "licensePlate": "N/A",
       "registerDate": "2025-04-15",
@@ -395,7 +397,7 @@
     },
     {
       "id": "maq002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Mezcladora de Concreto",
       "licensePlate": "N/A",
       "status": "active",
@@ -405,7 +407,7 @@
     },
     {
       "id": "maq003",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Retroexcavadora",
       "licensePlate": "EGT-456",
       "status": "maintenance",
@@ -415,7 +417,7 @@
     },
     {
       "id": "maq004",
-      "projectId": "proj002",
+      "projectId": "p002",
       "name": "Martillo Neumático",
       "licensePlate": "N/A",
       "status": "active",
@@ -425,7 +427,7 @@
     },
     {
       "id": "maq005",
-      "projectId": "proj002",
+      "projectId": "p002",
       "name": "Tractor Oruga",
       "licensePlate": "FGT-789",
       "status": "active",
@@ -437,7 +439,7 @@
   "personnel": [
     {
       "id": "per001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Jorge Huamán",
       "dni": 45678901,
       "rol": "Maestro de Obra",
@@ -448,7 +450,7 @@
     },
     {
       "id": "per002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Luis Condori",
       "dni": 23456789,
       "rol": "Operador de Maquinaria",
@@ -459,7 +461,7 @@
     },
     {
       "id": "per003",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Carmen Soto",
       "dni": 34567890,
       "rol": "Ingeniera Civil",
@@ -470,7 +472,7 @@
     },
     {
       "id": "per004",
-      "projectId": "proj001",
+      "projectId": "p001",
       "name": "Julio Rojas",
       "dni": 56789012,
       "rol": "Albañil",
@@ -481,7 +483,7 @@
     },
     {
       "id": "per005",
-      "projectId": "proj002",
+      "projectId": "p002",
       "name": "Mariana Flores",
       "dni": 67890123,
       "rol": "Ingeniera Civil",
@@ -492,7 +494,7 @@
     },
     {
       "id": "per006",
-      "projectId": "proj002",
+      "projectId": "p002",
       "name": "Eduardo Chávez",
       "dni": 78901234,
       "rol": "Topógrafo",
@@ -505,7 +507,7 @@
   "incidents": [
     {
       "id": "inc001",
-      "projectId": "proj001",
+      "projectId": "p001",
       "title": "Rotura de tubería de agua",
       "description": "Durante la excavación se produjo la rotura de una tubería de agua no indicada en los planos municipales",
       "date": "2025-05-11",
@@ -517,7 +519,7 @@
     },
     {
       "id": "inc002",
-      "projectId": "proj001",
+      "projectId": "p001",
       "title": "Retraso en entrega de materiales",
       "description": "El proveedor de acero notificó un retraso de 5 días en la entrega programada de varillas",
       "date": "2025-05-09",
